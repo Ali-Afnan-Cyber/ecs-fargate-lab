@@ -1,0 +1,9 @@
+LAB : Deploy Docker App on AWS ECS Using Fargate with Image from ECR
+Objective:
+Deploy a Dockerized app on AWS ECS using ECR-hosted image (no servers needed).
+Steps:
+1.	Use image from Lab 1.
+2.	Create a task definition in ECS with Fargate launch type.
+3.	Set up ECS Cluster and Service.
+4.	Configure networking and security group to allow traffic.
+5.	Deploy and test from browser.
