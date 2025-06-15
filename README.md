@@ -97,7 +97,7 @@ Fix: Investigated logs via docker run and found the real error.
 # 🐛 2. Cannot find module '/app/app.js'
 Error Message in logs: Error: Cannot find module '/app/app.js'
 
-Root Cause: Your app file was named node.js, but package.json was set to run app.js.
+Root Cause: my app file was named node.js, but package.json was set to run app.js.
 
 Fix: Renamed node.js → app.js to match the start script in package.json.
 
